@@ -136,7 +136,8 @@ public class MainActivity extends AppCompatActivity {
 
         //TODO if ended
         if(!ended) return;
-            index = i;
+
+        index = i;
         listUpdate();
 
         calculator.setSubnetByIndex(index);
