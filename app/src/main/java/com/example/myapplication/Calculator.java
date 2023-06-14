@@ -38,10 +38,6 @@ public class Calculator {
         setIPAddress(networkClass , ipAddress , subnetByIndex);
     }
 
-    public Calculator() {
-        setIPAddress("A","192.168.1.1",0);
-    }
-
     public static boolean isValidIPAddress(String ip) {
         String zeroTo255
                 = "(\\d{1,2}|([01])\\"
